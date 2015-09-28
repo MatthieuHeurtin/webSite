@@ -17,16 +17,21 @@
 	<!-- inside_crops-->
 	<span class="inside_corps" > 
 
-<?php
 
+<p>
+	Hi,<br/>
+	You currently are on my personal server. <br/>
+	The purspose of this page is to show that I am able to manage an Apache Server.
+<?php
 $filename = "/home/matt-admin/webSite/compteur.txt";
 $compteur = file_exists($filename) ? file_get_contents($filename) + 1 : 1;
 file_put_contents($filename, $compteur, LOCK_EX);
-echo $compteur;
+echo "Number of Visitor " $compteur;
 
 
 ?>
 
+</p> 
 
 
 
