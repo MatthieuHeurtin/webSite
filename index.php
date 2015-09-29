@@ -32,16 +32,18 @@
 	<h4>Simeon</h4>
 <p>
 	Since the end of this internship, I am looking for a job, but also, on my free time I am working on Simeon a C project.<br/> 
-	feel you free to check my <a href="https://github.com/Matttttttttttt/Simeon-">github</a> <br/> 
+	Feel you free to check my <a href="https://github.com/Matttttttttttt/Simeon-">github</a> <br/> 
 </p>
 	<h4>A little website</h4>
 <p>
 	I am also working on my own apache server on Ubuntu server, my website is <a href="http://matthieu-heurtin.no-ip.org/">here<a><br/>
 	For the moment there is just one page.<br/>
 
-
+	<h4>Linkedin</h4>
+<p>
+	Feel you free to visit my <a href="https://www.linkedin.com/in/matthieuheurtin">linkedin profile</a>.<br/><br/><br/><br/>
 	(Sorry for my english it is not my mother tongue)<br/>
-
+</p>
 
 		
 
