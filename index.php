@@ -22,23 +22,26 @@
 	Hi,<br/>
 	First let me introduce myself, I am Matthieu Heurtin and I am currently living in France.
 	I got my degree this year. It is a degree in computer sciences with a specialization in network and telecommunication.<br/>
-
+</p>
 	<h4>Zeus</h4>
+<p>	
 	I have just finish a six months internship at Basingstoke (UK). This internship was a part of my formation.  During this 		internship I had to develop a IDE for Lua which is able to load C# DLL. This software is in C#.
 	Feel you free to check my github account to have a little demo of what I did.<br/>
 	<a href="https://github.com/Matttttttttttt/Zeus">Here</a><br/>
-
+</p>
 	<h4>Simeon</h4>
+<p>
 	Since the end of this internship, I am looking for a job, but also, on my free time I am working on Simeon a C project.<br/> 
 	feel you free to check my <a href="https://github.com/Matttttttttttt/Simeon-">github</a> <br/> 
-
-
-	I am also working on my own apache server on Ubuntu server, my website is <a href="http://matthieu-heurtin.no-ip.org/">here</a><br/>
-	For the moment there is just one page.
+</p>
+	<h4>A little website</h4>
+<p>
+	I am also working on my own apache server on Ubuntu server, my website is <a href="http://matthieu-heurtin.no-ip.org/">here<a><br/>
+	For the moment there is just one page.<br/>
 
 
 	(Sorry for my english it is not my mother tongue)<br/>
-
+</p>
 
 		
 
