@@ -41,10 +41,18 @@
 
 	<h4>Linkedin</h4>
 <p>
-	Feel you free to visit my <a href="https://www.linkedin.com/in/matthieuheurtin">linkedin profile</a>.<br/><br/><br/><br/>
-	(Sorry for my english it is not my mother tongue)<br/>
+	Feel you free to visit my <a href="https://www.linkedin.com/in/matthieuheurtin">linkedin profile</a>.<br/>
 </p>
+	<h4>Let me a message (BETA does not work yet)</h4>
+<p>
 
+Name: <input type="text" name="name" value="<?php echo $name;?>"><br/><br/>
+
+E-mail: <input type="text" name="email" value="<?php echo $email;?>"><br/><br/>
+
+Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea><br/><br/>
+
+(Sorry for my english it is not my mother tongue)<br/>
 		
 
 
