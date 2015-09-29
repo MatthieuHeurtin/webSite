@@ -25,7 +25,7 @@
 </p>
 	<h4>Zeus</h4>
 <p>	
-	I have just finish a six months internship at Basingstoke (UK). This internship was a part of my formation.  During this 		internship I had to develop a IDE for Lua which is able to load C# DLL. This software is in C#.
+	I have just finish a six months internship at Basingstoke (UK). This internship was a part of my formation.  During this internship I had to develop a IDE for Lua which is able to load C# DLL. This software is in C#.
 	Feel you free to check my github account to have a little demo of what I did.<br/>
 	<a href="https://github.com/Matttttttttttt/Zeus">Here</a><br/>
 </p>
@@ -46,12 +46,16 @@
 	<h4>Let me a message (BETA does not work yet)</h4>
 <p>
 
-Name: <input type="text" name="name" value="<?php echo $name;?>"><br/><br/>
+<form action="write.php" method="post">
+	<p>
+		Name: <input type="text" name="name" value="<?php echo $name;?>"><br/><br/>
 
-E-mail: <input type="text" name="email" value="<?php echo $email;?>"><br/><br/>
-
-Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea><br/><br/>
-
+		Comment: <br/>
+		<textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea><br/><br/>
+		<input type="submit" value="Validate"/><br/><br/>
+	</p>
+</form>
+<p>
 (Sorry for my english it is not my mother tongue)<br/>
 		
 
@@ -96,7 +100,8 @@ file_put_contents('/home/matt-admin/webSite/infos', $data, FILE_APPEND);
 
 
 
-	</span>
+</span>
+	<span>
 	<!--FOOT-->
 	<span class="foot">
 
