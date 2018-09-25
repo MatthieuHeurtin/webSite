@@ -17,85 +17,17 @@
 	<!-- inside_crops-->
 	<span class="inside_corps" > 
 
+<h2>Preface</h2>
 
-<p>
-	Hi,<br/>
-	First let me introduce myself, I am Matthieu Heurtin and I am currently living in France.
-	I got my degree this year. It is a degree in computer sciences with a specialization in network and telecommunication.<br/>
-</p>
-	<h4>Zeus</h4>
-<p>	
-	I have just finish a six months internship at Basingstoke (UK). This internship was a part of my formation.  During this internship I had to develop a IDE for Lua which is able to load C# DLL. This software is in C#.
-	Feel you free to check my github account to have a little demo of what I did.<br/>
-	<a href="https://github.com/Matttttttttttt/Zeus">Here</a><br/>
-</p>
-	<h4>Simeon</h4>
-<p>
-	Since the end of this internship, I am looking for a job, but also, on my free time I am working on Simeon a C project.<br/> 
-	Feel you free to check my <a href="https://github.com/Matttttttttttt/Simeon-">github</a> <br/> 
-</p>
-	<h4>A little website</h4>
-<p>
-	I am also working on my own apache server on Ubuntu server, my website is <a href="http://matthieu-heurtin.no-ip.org/">here<a><br/>
-	For the moment there is just one page.<br/>
+Oh Jean Jacques Rouseau !
 
-	<h4>Linkedin</h4>
-<p>
-	Feel you free to visit my <a href="https://www.linkedin.com/in/matthieuheurtin">linkedin profile</a>.<br/>
-</p>
-	<h4>Let me a message (BETA does not work yet)</h4>
-<p>
+Tu ne me connai pas, mais moi, je te connais. Je te connais comme tous le monde, gràce aux confessions que tu as laissées. Mais la où les autres lisent tes pensées, moi je reconnais les miennes.
 
-<form action="write.php" method="post">
-	<p>
-		Name: <input type="text" name="name" value="<?php echo $name;?>"><br/><br/>
+Merci à cette professeur de français dont le nom s'est envolé de ma mémoire. C'était une étude de texte, la première page de tes confessions. J'ai été choqué en la lisant. La prof nous a dit qu'une phrase était passée à la posterité. Cela ne faisait aucun doutes pour moi : “[…] et je connais les hommes. Je ne suis fait comme aucun de ceux que j'ai vue; j'ose croire n'être fait comme aucun de ceux qui existent.  Si je ne vaux pas mieux, au moins je suis autre.” Quelle ne fut ma surprise quand elle cita la première ligne…
 
-		Comment: <br/>
-		<textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea><br/><br/>
-		<input type="submit" value="Validate"/><br/><br/>
-	</p>
-</form>
-<p>
-(Sorry for my english it is not my mother tongue)<br/>
-		
+A cette époque je me sentais différent des autres, pas meilleur, pas pire, juste différent. Du moins je l'esperais.
 
-
-<?php
-$filename = "/home/matt-admin/webSite/compteur.txt";
-$compteur = file_exists($filename) ? file_get_contents($filename) + 1 : 1;
-file_put_contents($filename, $compteur, LOCK_EX);
-echo "Number of Visitor ";
-echo  $compteur;
-
-
-function getUserIP()
-{
-    $client  = @$_SERVER['HTTP_CLIENT_IP'];
-    $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];
-    $remote  = $_SERVER['REMOTE_ADDR'];
-
-    if(filter_var($client, FILTER_VALIDATE_IP))
-    {
-        $ip = $client;
-    }
-    elseif(filter_var($forward, FILTER_VALIDATE_IP))
-    {
-        $ip = $forward;
-    }
-    else
-    {
-        $ip = $remote;
-    }
-
-    return $ip;
-}
-$user_ip = getUserIP();
-$date = date('l jS \of F Y h:i:s A');
-$data = sprintf("%s %s %s\n", $compteur, $user_ip, $date);
-file_put_contents('/home/matt-admin/webSite/infos', $data, FILE_APPEND);
-?>
-</p>
-
+Et aujourd'hui, au moins dix ans après, je suis comme les autres. Je suis né différent pour devenir semblable. Et alors que je lis enfin tes confessions, la façon de penser que j'avais quand j'étais autre me reviens. Et pour cela merci Jean-jacques Rousseau.
 
 
 
@@ -104,10 +36,6 @@ file_put_contents('/home/matt-admin/webSite/infos', $data, FILE_APPEND);
 	<span>
 	<!--FOOT-->
 	<span class="foot">
-
-		<p>	You are, currently, on my personal server. <br/>
-	The purspose of this page is to show that I have basic knowledge about an Apache Server. <br/>
-	<br/></p>
 	</span>
 
 </span>
